@@ -16,7 +16,8 @@ function Form(props){
         <br/>
         <input type='text'
           placeholder='Jogging, playing with a pet, etc.'
-          ref={(input) => {_activity = input;}}/><br/>
+          ref={(input) => {_activity = input;}}
+          required/><br/>
         <button type='submit'>Submit</button>
       </form>
       <button onClick={props.handleToggleForm}>Close</button>
