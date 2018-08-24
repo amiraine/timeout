@@ -11,7 +11,7 @@ function Form(props){
   return(
     <div className='list'>
       <form onSubmit={handleFormSubmission}>
-        <label>Enter a relaxing activity</label>
+        <h2>Enter a relaxing activity</h2>
         <br/>
         <br/>
         <input type='text'

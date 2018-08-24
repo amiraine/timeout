@@ -8,6 +8,7 @@ function CurrentList(props){
 
   return(
     <div className='list'>
+      <h2>Current activity list</h2>
       <ul>
         {ulList}
       </ul>
